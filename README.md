@@ -51,15 +51,25 @@ It integrates spatial, demographic, and infrastructure data to reveal patterns i
 ## File Structure
 
 ├── app.R # Main Shiny application 
+
 ├── README.md # Project description and documentation 
+
 ├── data/ 
-└──── raw/ # Unprocessed downloaded files 
+
+└──── raw/ # Unprocessed downloaded files
+
 └──── cleaned/ # Cleaned and structured data
+
 └──── combined/ # Final merged datasets for app use
+
 ├── scripts/
+
 └──── download_usgs.R 
+
 └──── download_census.R 
+
 └──── download_shapefile.R 
+
 └──── merge_all_data.R
 
 ## How to Run
